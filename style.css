@@ -1,4 +1,63 @@
-td, th {
-	border: 1px solid;
-  }
-  
+body {
+  background-color: #FAF9F6;
+  font-family: sans-serif;
+}
+
+h1{
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#planets {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #FFDAB9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#planets th, #planets td {
+  border: 3px solid #6e84cf;
+  padding: 5px;
+  text-align: center;
+}
+
+#planets th {
+  background-color: #ccc;
+}
+
+#planets img {
+  width: 150px;
+  height: 150px;
+}
+
+.planet-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.planet-data {
+  font-style: italic;
+}
+
+.title{
+  text-align: center;
+  font-size: 75px;
+}
